@@ -7,6 +7,5 @@
 }
 
 @layer components {
-    .scroll-container { @apply screen overflow-scroll snap-y snap-mandatory }
     .nav-item { @apply h-24 w-24 content-center opacity-25 p-6 transition-all }
 }
