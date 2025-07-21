@@ -1,0 +1,15 @@
+{
+  "name": "yeast",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "tailwindcss -i ./assets/css/tailwind.css -o ./assets/css/style.css --watch",
+    "build": "tailwindcss -i ./assets/css/tailwind.css -o ./assets/css/style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "packageManager": "pnpm@10.12.4",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.11",
+    "tailwindcss": "^4.1.11"
+  }
+}

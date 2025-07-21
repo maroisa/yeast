@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@utility screen { @apply w-screen h-screen }
+
+@layer base {
+    h2 {
+        font-weight: 700;
+        font-size: xx-large;
+    }
+
+}
+
+@layer components {
+    .scroll-container { @apply screen overflow-scroll snap-y snap-mandatory }
+}
