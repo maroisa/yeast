@@ -3,13 +3,10 @@
 @utility screen { @apply w-screen h-screen }
 
 @layer base {
-    h2 {
-        font-weight: 700;
-        font-size: xx-large;
-    }
-
+    h2 { @apply font-bold text-4xl }
 }
 
 @layer components {
     .scroll-container { @apply screen overflow-scroll snap-y snap-mandatory }
+    .nav-item { @apply h-24 w-24 content-center opacity-25 p-6 transition-all }
 }
