@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="32"
+   height="32"
+   viewBox="0 0 9.4074069 9.4074069"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
+   sodipodi:docname="favicon-white.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showguides="false"
+     inkscape:zoom="15.25938"
+     inkscape:cx="8.2572162"
+     inkscape:cy="13.925861"
+     inkscape:window-width="1829"
+     inkscape:window-height="966"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,0.22550633)">
+    <g
+       id="g2"
+       style="fill:#ececec;fill-opacity:1;stroke:none"
+       transform="matrix(0.79579732,-0.79579732,0.79579732,0.79579732,-2.2874752,2.8653088)">
+      <rect
+         style="fill:#ececec;fill-opacity:1;stroke-width:0.334796;stroke:none"
+         id="rect1"
+         width="1.6491104"
+         height="5.0861249"
+         x="2.9669058"
+         y="0.73209375"
+         inkscape:label="LeftWing" />
+      <rect
+         style="fill:#ececec;fill-opacity:1;stroke-width:0.334796;stroke:none"
+         id="rect3"
+         width="1.6491104"
+         height="5.0861249"
+         x="4.1691084"
+         y="-8.053031"
+         inkscape:label="RightWing"
+         transform="rotate(90)" />
+    </g>
+    <rect
+       style="fill:#e6e6e6;fill-opacity:1;stroke-width:0.316839;stroke:none"
+       id="rect5"
+       width="1.8559539"
+       height="4.0475245"
+       x="3.7757266"
+       y="5.134376"
+       inkscape:label="LeftWing" />
+  </g>
+</svg>
