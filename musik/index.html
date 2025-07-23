@@ -8,17 +8,129 @@
     <title>Yeast - Musik</title>
 </head>
 <body>
-    <div class="screen flex flex-col">
-        <header class="w-full bg-green-500 text-white">
+    <div class="screen">
+        
+        <header class="w-full bg-[#0045CC] text-white sticky top-0">
             <div class="text-2xl font-semibold flex items-center">
-                <a href="../" class="p-4">
+                <a href="../" class="p-4 flex">
                     <img class="h-6" src="../assets/favicon-white.svg" alt="Yeast Icon">
                 </a>
-                <h1>Musik</h1>
+                <h1 class="grow">Musik</h1>
             </div>
         </header>
-        <main class="flex-1">
+
+        <main class="overflow-y-auto max-w-7xl m-auto">
+            <!-- Lagu Trending -->
+            <div>
+                <h2 class="text-2xl mx-4 mt-4">Trending</h2>
+                <div class="flex gap-4 lg:gap-10 *:shrink-0 p-4 overflow-x-auto">
+                    <div class="w-1/3 max-w-60 aspect-3/4">
+                        <div class="bg-gray-300 aspect-square rounded-md"></div>
+                        <span class="font-semibold text-sm lg:text-xl block my-2 lg:my-4">Lorem Ipsum Dolor Sit</span>
+                    </div>
+                    <div class="w-1/3 max-w-60 aspect-3/4">
+                        <div class="bg-gray-300 aspect-square rounded-md"></div>
+                        <span class="font-semibold text-sm lg:text-xl block my-2 lg:my-4">Lorem Ipsum Dolor</span>
+                    </div>
+                    <div class="w-1/3 max-w-60 aspect-3/4">
+                        <div class="bg-gray-300 aspect-square rounded-md"></div>
+                        <span class="font-semibold text-sm lg:text-xl block my-2 lg:my-4">Lorem Ipsum Dolor</span>
+                    </div>
+                    <div class="w-1/3 max-w-60 aspect-3/4">
+                        <div class="bg-gray-300 aspect-square rounded-md"></div>
+                        <span class="font-semibold text-sm lg:text-xl block my-2 lg:my-4">Lorem Ipsum Dolor</span>
+                    </div>
+                    <div class="w-1/3 max-w-60 aspect-3/4">
+                        <div class="bg-gray-300 aspect-square rounded-md"></div>
+                        <span class="font-semibold text-sm lg:text-xl block my-2 lg:my-4">Lorem Ipsum Dolor</span>
+                    </div>
+                    <div class="w-1/3 max-w-60 aspect-3/4">
+                        <div class="bg-gray-300 aspect-square rounded-md"></div>
+                        <span class="font-semibold text-sm lg:text-xl block my-2 lg:my-4">Lorem Ipsum Dolor</span>
+                    </div>
+                    <div class="w-1/3 max-w-60 aspect-3/4">
+                        <div class="bg-gray-300 aspect-square rounded-md"></div>
+                        <span class="font-semibold text-sm lg:text-xl block my-2 lg:my-4">Lorem Ipsum Dolor</span>
+                    </div>
+                </div>
+            </div>
+            <!-- END Lagu Trending -->
+
+            <!-- Lagu Terbaru -->
+            <div>
+                <h2 class="text-2xl mx-4 mt-4">Terbaru</h2>
+                <div class="flex gap-4 lg:gap-10 *:shrink-0 p-4 overflow-x-auto">
+                    <div class="w-1/3 max-w-60 aspect-3/4">
+                        <div class="bg-gray-300 aspect-square rounded-md"></div>
+                        <span class="font-semibold text-sm lg:text-xl block my-2 lg:my-4">Lorem Ipsum Dolor Sit</span>
+                    </div>
+                    <div class="w-1/3 max-w-60 aspect-3/4">
+                        <div class="bg-gray-300 aspect-square rounded-md"></div>
+                        <span class="font-semibold text-sm lg:text-xl block my-2 lg:my-4">Lorem Ipsum Dolor Sit Amet</span>
+                    </div>
+                    <div class="w-1/3 max-w-60 aspect-3/4">
+                        <div class="bg-gray-300 aspect-square rounded-md"></div>
+                        <span class="font-semibold text-sm lg:text-xl block my-2 lg:my-4">Lorem Ipsum Dolor</span>
+                    </div>
+                    <div class="w-1/3 max-w-60 aspect-3/4">
+                        <div class="bg-gray-300 aspect-square rounded-md"></div>
+                        <span class="font-semibold text-sm lg:text-xl block my-2 lg:my-4">Lorem Ipsum Dolor</span>
+                    </div>
+                    <div class="w-1/3 max-w-60 aspect-3/4">
+                        <div class="bg-gray-300 aspect-square rounded-md"></div>
+                        <span class="font-semibold text-sm lg:text-xl block my-2 lg:my-4">Lorem Ipsum Dolor</span>
+                    </div>
+                    <div class="w-1/3 max-w-60 aspect-3/4">
+                        <div class="bg-gray-300 aspect-square rounded-md"></div>
+                        <span class="font-semibold text-sm lg:text-xl block my-2 lg:my-4">Lorem Ipsum Dolor</span>
+                    </div>
+                    <div class="w-1/3 max-w-60 aspect-3/4">
+                        <div class="bg-gray-300 aspect-square rounded-md"></div>
+                        <span class="font-semibold text-sm lg:text-xl block my-2 lg:my-4">Lorem Ipsum Dolor</span>
+                    </div>
+                </div>
+            </div>
+            <!-- END Lagu Terbaru -->
+
+            <!-- Artist Naik Daun -->
+            <div>
+                <h2 class="text-2xl mx-4 mt-4">Artist Trending</h2>
+                <div class="flex gap-4 lg:gap-10 *:shrink-0 p-4 overflow-x-auto">
+                    <div class="w-1/3 max-w-60 aspect-3/4">
+                        <div class="bg-gray-300 aspect-square rounded-full"></div>
+                        <span class="font-semibold text-sm lg:text-xl block my-2 lg:my-4">Lorem Ipsum Dolor Sit</span>
+                    </div>
+                    <div class="w-1/3 max-w-60 aspect-3/4">
+                        <div class="bg-gray-300 aspect-square rounded-full"></div>
+                        <span class="font-semibold text-sm lg:text-xl block my-2 lg:my-4">Lorem Ipsum Dolor Sit Amet</span>
+                    </div>
+                    <div class="w-1/3 max-w-60 aspect-3/4">
+                        <div class="bg-gray-300 aspect-square rounded-full"></div>
+                        <span class="font-semibold text-sm lg:text-xl block my-2 lg:my-4">Lorem Ipsum Dolor</span>
+                    </div>
+                    <div class="w-1/3 max-w-60 aspect-3/4">
+                        <div class="bg-gray-300 aspect-square rounded-full"></div>
+                        <span class="font-semibold text-sm lg:text-xl block my-2 lg:my-4">Lorem Ipsum Dolor</span>
+                    </div>
+                    <div class="w-1/3 max-w-60 aspect-3/4">
+                        <div class="bg-gray-300 aspect-square rounded-full"></div>
+                        <span class="font-semibold text-sm lg:text-xl block my-2 lg:my-4">Lorem Ipsum Dolor</span>
+                    </div>
+                    <div class="w-1/3 max-w-60 aspect-3/4">
+                        <div class="bg-gray-300 aspect-square rounded-full"></div>
+                        <span class="font-semibold text-sm lg:text-xl block my-2 lg:my-4">Lorem Ipsum Dolor</span>
+                    </div>
+                    <div class="w-1/3 max-w-60 aspect-3/4">
+                        <div class="bg-gray-300 aspect-square rounded-full"></div>
+                        <span class="font-semibold text-sm lg:text-xl block my-2 lg:my-4">Lorem Ipsum Dolor</span>
+                    </div>
+                </div>
+            </div>
+            <!-- END Lagu Terbaru -->
+
+
         </main>
+
     </div>
 </body>
 </html>
