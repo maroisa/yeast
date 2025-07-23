@@ -8,17 +8,115 @@
     <title>Yeast - Desain</title>
 </head>
 <body>
-    <div class="screen flex flex-col">
-        <header class="w-full bg-red-500 text-white">
+    <div class="screen">
+        
+        <header class="w-full bg-[#45CC00] text-white sticky top-0">
             <div class="text-2xl font-semibold flex items-center">
-                <a href="../" class="p-4">
+                <a href="../" class="p-4 flex">
                     <img class="h-6" src="../assets/favicon-white.svg" alt="Yeast Icon">
                 </a>
-                <h1>Desain</h1>
+                <h1 class="grow">Desain</h1>
+                <button class="p-4 active:bg-black/10">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                        <path fill-rule="evenodd" d="M10.5 3.75a6.75 6.75 0 1 0 0 13.5 6.75 6.75 0 0 0 0-13.5ZM2.25 10.5a8.25 8.25 0 1 1 14.59 5.28l4.69 4.69a.75.75 0 1 1-1.06 1.06l-4.69-4.69A8.25 8.25 0 0 1 2.25 10.5Z" clip-rule="evenodd" />
+                    </svg>
+                </button>
+                <button class="p-4 active:bg-black/10">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                        <path fill-rule="evenodd" d="M7.5 6a4.5 4.5 0 1 1 9 0 4.5 4.5 0 0 1-9 0ZM3.751 20.105a8.25 8.25 0 0 1 16.498 0 .75.75 0 0 1-.437.695A18.683 18.683 0 0 1 12 22.5c-2.786 0-5.433-.608-7.812-1.7a.75.75 0 0 1-.437-.695Z" clip-rule="evenodd" />
+                    </svg>
+                </button>
             </div>
         </header>
-        <main class="flex-1">
+
+        <main class="overflow-y-auto" id="screenDiv">
+            <!-- Category Button -->
+            <div class="h-14 flex gap-4 m-2 items-center">
+                <button onclick="scrollToLeft()" class="hidden md:block bg-gray-200 active:bg-gray-300 h-10 w-10 rounded-full shrink-0">&lt;</button>
+                <div class="h-14 overflow-x-auto md:overflow-x-hidden flex gap-4 grow *:shrink-0" id="category-container">
+
+                    <button class="bg-gray-200 active:bg-gray-300 shadow-lg/25 border border-gray-300 rounded-lg h-full p-2 flex gap-2 items-center w-auto">
+                        <img src="../assets/favicon.svg" alt="">
+                        <span>Lorem Ipsum Dolor Sit Amet</span>
+                    </button>
+
+                    <button class="bg-gray-200 active:bg-gray-300 shadow-lg/25 border border-gray-300 rounded-lg h-full p-2 flex gap-2 items-center w-auto">
+                        <img src="../assets/favicon.svg" alt="">
+                        <span>Lorem Ipsum Dolor Sit Amet</span>
+                    </button>
+
+                    <button class="bg-gray-200 active:bg-gray-300 shadow-lg/25 border border-gray-300 rounded-lg h-full p-2 flex gap-2 items-center w-auto">
+                        <img src="../assets/favicon.svg" alt="">
+                        <span>Lorem Ipsum Dolor Sit Amet</span>
+                    </button>
+
+                    <button class="bg-gray-200 active:bg-gray-300 shadow-lg/25 border border-gray-300 rounded-lg h-full p-2 flex gap-2 items-center w-auto">
+                        <img src="../assets/favicon.svg" alt="">
+                        <span>Lorem Ipsum Dolor Sit Amet</span>
+                    </button>
+
+                    <button class="bg-gray-200 active:bg-gray-300 shadow-lg/25 border border-gray-300 rounded-lg h-full p-2 flex gap-2 items-center w-auto">
+                        <img src="../assets/favicon.svg" alt="">
+                        <span>Lorem Ipsum Dolor Sit Amet</span>
+                    </button>
+
+                    <button class="bg-gray-200 active:bg-gray-300 shadow-lg/25 border border-gray-300 rounded-lg h-full p-2 flex gap-2 items-center w-auto">
+                        <img src="../assets/favicon.svg" alt="">
+                        <span>Lorem Ipsum Dolor Sit Amet</span>
+                    </button>
+
+                    <button class="bg-gray-200 active:bg-gray-300 shadow-lg/25 border border-gray-300 rounded-lg h-full p-2 flex gap-2 items-center w-auto">
+                        <img src="../assets/favicon.svg" alt="">
+                        <span>Lorem Ipsum Dolor Sit Amet</span>
+                    </button>
+
+                </div>
+                <button onclick="scrollToRight()" class="hidden md:block bg-gray-200 active:bg-gray-300 h-10 w-10 rounded-full shrink-0">&gt;</button>
+            </div>
+            <!-- END Category Button -->
+
+            <!-- Grid Image -->
+            <div class="p-2 md:p-4 grid grid-cols-2 md:grid-cols-4 gap-2 md:gap-4">
+                <div class="bg-gray-300 aspect-3/4"></div>
+                <div class="bg-gray-300 aspect-3/4"></div>
+                <div class="bg-gray-300 aspect-3/4"></div>
+                <div class="bg-gray-300 aspect-3/4"></div>
+                <div class="bg-gray-300 aspect-3/4"></div>
+                <div class="bg-gray-300 aspect-3/4"></div>
+                <div class="bg-gray-300 aspect-3/4"></div>
+                <div class="bg-gray-300 aspect-3/4"></div>
+                <div class="bg-gray-300 aspect-3/4"></div>
+                <div class="bg-gray-300 aspect-3/4"></div>
+                <div class="bg-gray-300 aspect-3/4"></div>
+                <div class="bg-gray-300 aspect-3/4"></div>
+                <div class="bg-gray-300 aspect-3/4"></div>
+                <div class="bg-gray-300 aspect-3/4"></div>
+                <div class="bg-gray-300 aspect-3/4"></div>
+                <div class="bg-gray-300 aspect-3/4"></div>
+                <div class="bg-gray-300 aspect-3/4"></div>
+                <div class="bg-gray-300 aspect-3/4"></div>
+                <div class="bg-gray-300 aspect-3/4"></div>
+                <div class="bg-gray-300 aspect-3/4"></div>
+                <div class="bg-gray-300 aspect-3/4"></div>
+                <div class="bg-gray-300 aspect-3/4"></div>
+                <div class="bg-gray-300 aspect-3/4"></div>
+                <div class="bg-gray-300 aspect-3/4"></div>
+            </div>
+            <!-- END Grid Image -->
         </main>
+
+        <!-- Floating Button -->
+        <div class="screen fixed top-0 flex justify-end items-end pointer-events-none">
+            <button style="opacity: 0;" id="floating-btn" class="transition-all duration-50 m-4 p-4 pointer-events-auto rounded-full bg-gray-200 active:bg-gray-300 shadow-lg/25">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="m-auto size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 6.75 12 3m0 0 3.75 3.75M12 3v18" />
+                </svg>
+            </button>
+        </div>
+        <!-- END Floating Button -->
+
     </div>
+    <script src="./desain.js">
+    </script>
 </body>
 </html>
