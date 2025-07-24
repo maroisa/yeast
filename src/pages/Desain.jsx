@@ -8,7 +8,6 @@ export default function Desain(){
 
     onMount(() => {
         window.addEventListener("scroll", () => {
-            console.log(window.scrollY > window.innerHeight)
             setFloatingActive(window.scrollY > window.innerHeight)
         })
     })
