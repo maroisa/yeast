@@ -6,6 +6,12 @@
     -ms-overflow-style: none;
 }
 
+:root {
+    --bg-yeast-green: #45CC00;
+    --bg-yeast-blue: #0045CC;
+    --bg-yeast-pink: #CC0045;
+}
+
 #root {
     @apply screen
 }

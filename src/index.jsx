@@ -7,6 +7,7 @@ import Home from "./pages/Home";
 import Desain from "./pages/Desain";
 import Musik from "./pages/Musik";
 import Puisi from "./pages/Puisi";
+import Header from "./components/Header";
 
 render(
 	() => <Router>
