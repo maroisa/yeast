@@ -4,7 +4,7 @@ import PuisiCard from "../components/PuisiCard"
 
 export default function Puisi(){
     return <>
-        <Header color="#CC0045" title="Puisi" />
+        <Header color="bg-[#CC0045]" title="Puisi" />
 
         <main class="overflow-y-auto max-w-7xl m-auto p-4">
             <div class="mb-12">

@@ -1,7 +1,7 @@
 import NavigationButton from "./NavigationButton";
 
 export default function Header({color, title, children = null}){
-    return <header class={`w-full bg-[${color}] text-white sticky top-0`}>
+    return <header class={ "w-full text-white sticky top-0 " + color }>
         <div class="text-2xl font-semibold flex items-center h-16">
             <a href="../" class="flex aspect-square h-full p-5">
                 <img
@@ -15,7 +15,7 @@ export default function Header({color, title, children = null}){
             <h1>{children}</h1>
         </div>
 
-        <NavigationButton />
+        {/* <NavigationButton /> */}
 
     </header>
 }

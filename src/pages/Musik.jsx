@@ -4,7 +4,7 @@ import MusikCard from "../components/MusikCard"
 
 export default function Musik(){
     return <>
-        <Header color="#0045CC" title="Musik" />
+        <Header color="bg-[#0045CC]" title="Musik" />
         
         <main class="overflow-y-auto max-w-7xl m-auto">
             <div>
