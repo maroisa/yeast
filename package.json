@@ -1,15 +1,22 @@
 {
   "name": "yeast",
-  "version": "1.0.0",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "dev": "tailwindcss -i ./assets/css/tailwind.css -o ./assets/css/style.css --watch",
-    "build": "tailwindcss -i ./assets/css/tailwind.css -o ./assets/css/style.css"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
-  "keywords": [],
-  "author": "",
-  "packageManager": "pnpm@10.12.4",
   "dependencies": {
-    "@tailwindcss/cli": "^4.1.11",
+    "@solidjs/router": "^0.15.3",
+    "@tailwindcss/vite": "^4.1.11",
+    "solid-js": "^1.9.5",
     "tailwindcss": "^4.1.11"
-  }
+  },
+  "devDependencies": {
+    "vite": "^6.3.5",
+    "vite-plugin-solid": "^2.11.6"
+  },
+  "packageManager": "pnpm@10.12.4+sha512.5ea8b0deed94ed68691c9bad4c955492705c5eeb8a87ef86bc62c74a26b037b08ff9570f108b2e4dbd1dd1a9186fea925e527f141c648e85af45631074680184"
 }

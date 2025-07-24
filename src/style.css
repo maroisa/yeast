@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@utility screen { @apply w-screen h-screen }
+@utility scrollbar-none {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+#root {
+    @apply screen
+}
